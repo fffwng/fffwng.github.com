@@ -1,0 +1,115 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Buenard&subset=latin,latin-ext);
+   /* reset start */
+   
+html, body, div, a, p, q, img, ul, li, footer, header, section, span, h1, h2, h3, h4, h5, h6 {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:#FFFEF9 url(../image/bg.png) repeat;
+    background-size: cover;
+    text-decoration:none;
+    }
+
+footer, section, header { 
+    display:block;
+    }
+h1, h2, h3 {
+    font-weight:lighter;
+    }
+:focus {
+    outline:none;	
+    }
+ul { 
+    list-style:none;
+    float:left;
+   }
+   
+    /* reset end */
+
+html {
+    height:101%;
+        }
+	 
+body {
+    width:96%;
+    max-width:45em;
+    margin:0 auto;
+    overflow:auto;
+    font-size:125%;
+    font-family: 'Buenard', serif;
+    color:#111111;
+    line-height:25px;
+}
+
+   /* header start */
+
+header {
+	width:100%;
+	float:left;
+	border-bottom:dotted 2px #D0D0D0;
+	}
+/* header img hover*/
+header img {
+    float:left;
+    margin:1.5em 0 2em 0;
+
+   }
+header img:hover {
+	opacity:0.6;
+        transition:all .2s linear; 
+}
+/* header img hover end*/
+header ul {
+    float:right;
+    margin:2.5em 0 0 0;
+	}
+header li {
+    display:inline;
+	padding:0 0 0 1.5em;
+	}
+a:hover, header ul a {
+   color:#111111;
+   }
+a, header ul li a:hover {
+   color:#00bff3;
+   }
+   
+    /* header end*/
+    
+    /*thumbnails*/
+    .thumbnails {
+        width:100%;
+        margin:2.8em 0 0 0;
+        }
+    .thumbnails li {
+        width:33.33%;
+        float:left;
+        display:inline;
+        }
+    .thumbnails li img{
+        width:100%;
+        height:auto;
+        float:left;
+        transition:all .2s ease-in-out 0s;
+        }
+    .thumbnails li img:hover {
+        opacity:0.6;
+       }
+    /*thumbnails end*/
+
+    /*footer*/
+    footer {
+	width:100%;
+	text-align:center;
+	float:left;
+	padding : 4em 0 4em 0;
+	border-top:dotted 2px #D0D0D0;
+	    }
+    .home footer {
+	margin:3em 0 0 0;
+	    }    
+    /*footer end*/
